@@ -16,7 +16,7 @@ interface GameCollection extends Game, DLC {}
 
 // implements
 
-class CreateGame implements GameCollection {}
+//class CreateGame implements GameCollection {}
 
 // declarar função
 
@@ -26,7 +26,7 @@ interface getSimilars {
 
 // ====================== Diferenças ======================= //
 
-interface ID extends number {}
+//interface ID extends number {}
 
 // não consigo definir Tuplas na interface
 

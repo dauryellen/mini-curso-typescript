@@ -12,14 +12,14 @@ console.log(tlou.genre);
 if (tlou.getSimilars) {
     tlou.getSimilars(tlou.title);
 }
-var leftBehind = {
-    title: "The Last of Us - Left Behind",
-    description: "You play as Ellie before the original game",
-    genre: "Action",
-    platform: ["PS4"],
-    originalGame: tlou,
-    newContent: ["3 hours story", "new characters"],
-};
+/*const leftBehind: DLC = {
+  title: "The Last of Us - Left Behind",
+  description: "You play as Ellie before the original game",
+  genre: "Action",
+  platform: ["PS4"],
+  originalGame: tlou,
+  newContent: ["3 hours story", "new characters"],
+};*/
 var CreateGame = /** @class */ (function () {
     function CreateGame(t, d, g) {
         this.title = t;
